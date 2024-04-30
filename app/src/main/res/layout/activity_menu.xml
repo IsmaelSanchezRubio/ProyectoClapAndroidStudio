@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondologin2"
+    android:backgroundTint="@color/material_dynamic_neutral10"
+    android:backgroundTintMode="add"
+    android:orientation="vertical"
+    tools:context=".Menu.MenuActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txtUsuarioActivo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/white"
+            android:hint="usuario"
+            android:text=""
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btnListaZonas"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/itembtn"
+                android:textSize="25sp"
+                android:text="Lista de zonas" />
+
+            <Button
+                android:id="@+id/btnTiempos"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_margin="25dp"
+                android:background="@drawable/itembtn"
+                android:textSize="25sp"
+                android:text="Tiempos" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

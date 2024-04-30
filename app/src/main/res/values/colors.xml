@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="gray">#C6C6C6</color>
+    <color name="fondoTranslucidoW">#26FFFFFF</color>
+    <color name="fondoTranslucidoB">#26000000</color>
+    <color name="bottonColor">#BF71C5FF</color>
+    <color name="bottonColorgradient">#BFCBCBCB</color>
+    <color name="fondoTranslucido">#1A000000</color>
+    <color name="cardviewColor">#96EAFF</color>
+
+</resources>
